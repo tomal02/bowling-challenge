@@ -1,13 +1,10 @@
 'use_strict';
 
 class Frame {
-  constructor() {
+  constructor(rolls) {
     const maximumTotal = 10;
-    this.pinsKnocked = [];
-  }
-
-  rolls(rollOne, rollTwo) {
-    this.pinsKnocked = [rollOne, rollTwo];
+    this.pinsKnocked = rolls;
+    this.strikeOrSpare = this.strikeOrSpare();
   }
 
   total() {
