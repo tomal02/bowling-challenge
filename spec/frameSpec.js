@@ -12,16 +12,16 @@ describe("Frame", function () {
   it("can return that a frame contains a strike", function () {
     testFrame = new Frame();
     testFrame.rolls(10, 0);
-    expect(testFrame.strikeOrSpare).toBe("Strike");
+    expect(testFrame.strikeOrSpare()).toBe("Strike");
   });
   it("can return that a frame contains a spare", function () {
     testFrame = new Frame();
     testFrame.rolls(6, 4);
-    expect(testFrame.strikeOrSpare).toBe("Spare");
+    expect(testFrame.strikeOrSpare()).toBe("Spare");
   });
   it("can return null when frame contains neither a strike or spare", function () {
     testFrame = new Frame();
     testFrame.rolls(4, 5);
-    expect(testFrame.strikeOrSpare).toBe(null);
+    expect(testFrame.strikeOrSpare()).toEqual(null);
   });
 });
