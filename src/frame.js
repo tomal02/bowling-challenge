@@ -1,4 +1,4 @@
-"use_strict";
+'use_strict';
 
 class Frame {
   constructor() {
@@ -12,17 +12,19 @@ class Frame {
 
   total() {
     let total = 0;
-    this.pinsKnocked.forEach((pins) => (total += pins));
+    this.pinsKnocked.forEach((pins) => {
+      total += pins;
+    });
     return total;
   }
 
   strikeOrSpare() {
-    if (this.pinsKnocked[0] == 10) {
-      return "Strike";
-    } else if (this.total() == 10) {
-      return "Spare";
-    } else {
-      return null;
+    if (this.pinsKnocked[0] === 10) {
+      return 'Strike';
     }
+    if (this.total() === 10) {
+      return 'Spare';
+    }
+    return null;
   }
 }

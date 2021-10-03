@@ -1,0 +1,37 @@
+{
+  "name": "bowling-challenge",
+  "version": "1.0.0",
+  "description": "- Feel free to use google, your notes, books, etc. but work on your own - If you refer to the solution of another coach or student, please put a link to that in your README - If you have a partial solution, **still check in a partial solution** - You must submit a pull request to this repo with your code by 9am Monday week",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomal02/bowling-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomal02/bowling-challenge/issues"
+  },
+  "homepage": "https://github.com/tomal02/bowling-challenge#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jasmine": "^4.1.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.4.1"
+  }
+}
