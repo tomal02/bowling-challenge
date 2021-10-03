@@ -1,3 +1,3 @@
 "use_strict";
 
-class Bowling {}
+class Frame {}
