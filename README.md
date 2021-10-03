@@ -68,10 +68,10 @@ More about ten pin bowling here: http://en.wikipedia.org/wiki/Ten-pin_bowling
 In code review we'll be hoping to see:
 
 - All tests passing
+
 - The code is elegant: every class has a clear responsibility, methods are short etc.
 
 Reviewers will potentially be using this [code review rubric](docs/review.md). Note that referring to this rubric in advance may make the challenge somewhat easier. You should be the judge of how much challenge you want.
 
-Domain model:
--Frame (class)
-get
+<img width="937" alt="Screenshot 2021-10-03 at 02 12 29" src="https://user-images.githubusercontent.com/84847318/135736132-77c2d320-62a3-4736-9126-02223c122084.png">
+<img width="1065" alt="Screenshot 2021-10-03 at 02 12 51" src="https://user-images.githubusercontent.com/84847318/135736134-7a4ab8bf-aa0d-4f9b-aa7b-c249e575a97e.png">
