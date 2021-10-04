@@ -22,6 +22,6 @@ class Frame {
     if (this.total() === 10) {
       return 'Spare';
     }
-    return null;
+    return 'no';
   }
 }
