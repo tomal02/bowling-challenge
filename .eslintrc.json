@@ -1,10 +1,13 @@
 {
+  /*"plugins": ["jasmine"],*/
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true /*,
+    "jasmine": true*/
   },
-  "extends": ["airbnb", "prettier"],
+  "extends": ["airbnb", "prettier" /*, "plugin:jasmine/recommended"*/],
 
+  /* Temporary to remove issue with jasmine*/
   "ignorePatterns": ["/spec"],
 
   "rules": {
